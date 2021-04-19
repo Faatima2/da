@@ -1,0 +1,204 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin: 0px;
+padding: 0px}
+body {
+	width: 1550px;
+	height: 400px;
+	text-align: center;
+	margin-left: auto;
+	background-color: rgba(192,187,218,0.19);
+
+}
+ul li a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.dropdown {
+	width: 860px;
+	margin-right: auto;
+	margin-left: auto;
+	color: #FFFFFF;
+	height: 30px;
+}
+.dropdown ul {
+	list-style-image: none;
+	list-style-type: none;
+	margin-top: 2%;
+	color: #FFFFFF;
+}
+.dropdown ul li {
+	background-color: rgba(15,48,87,1.00);
+	width: 170px;
+	border: 0 solid #0F3057;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	float: left;
+	color: #FFFFFF;
+	font-size: 14px;
+	position: relative;
+	font-family: abril-fatface;
+	font-weight: 400;
+	margin-top: 0px;
+}
+.dropdown ul li:hover{
+	background:crimson;}
+.dropdown ul ul {
+	display: none;
+}
+.dropdown ul li:hover > ul{
+	display: block;
+}
+.dropdown ul ul ul {
+	margin-left: 170px;
+	top: 0;
+	position: absolute;
+}
+.decor main .h {
+	margin-top: 50px;
+	margin-right: 50px;
+	margin-bottom: 50px;
+	margin-left: 50px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	border: 10px double rgba(54,48,88,1.00);
+	font-weight: 400;
+	background-color: rgba(102,91,165,0.63);	
+}
+
+
+header  {
+	height: 330px;
+	background-image: url(%D8%A7%D9%84%D8%B5%D9%88%D8%B1/heder.jpg);
+	color: #0F3057;
+	text-align: center;
+	text-decoration: underline;
+	font-size: 160px;
+	background-size: cover;
+}
+img   {
+	margin-left: 857px;
+	margin-top: 40px;
+
+}
+nav  {
+	height: 50px;
+	color: hsla(0,0%,100%,1.00);
+	text-decoration: none;
+	background-color: rgba(15,48,87,1.00);
+	background-position: center;
+	margin-top: -21px;
+}
+
+main  {
+	height: 600px;
+}
+footer  {
+	height: 40px;
+	background-color: rgba(15,48,87,1.00);
+	color: rgba(255,254,254,1.00);
+}
+p   {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+main h2 {
+	color: rgba(0,0,0,1.00);
+	text-align: center;
+	text-decoration: none;
+	font-family: abril-fatface;
+	font-style: italic;
+	font-weight: 400;
+	background-color: rgba(117,106,174,0.50);
+}
+@media screen and (max-width:500px){
+* {
+	margin: 0;
+	padding: 0;
+	width: 500px;
+	height: 667px;
+}
+	body {
+	overflow-x: hidden;
+	text-align: center;
+	text-decoration: none;
+	width: 500px;
+}
+.nav-wrapper nav .dropdown {
+
+}
+nav .dropdown ul {
+	padding-left: 68px;
+	margin-left: 0px;
+
+
+
+}
+
+
+
+}
+
+@media all and (max-width:500px){
+main .h h2 {
+	width: 250px;
+	height: 56px;
+	margin-bottom: 91px;
+	margin-top: 24px;
+	text-align: center;
+	font-size: large;
+}
+.decor main a {
+	margin-left: -454px;
+}
+
+.decor main .h {
+	width: 254px;
+	height: 107px;
+	margin-top: 167px;
+}
+
+.decor main {
+	width: 853px;
+	height: 422px;
+}
+
+
+
+
+
+
+
+}
+
+@media (width:500px){
+.decor header img {
+	width: 302px;
+	height: 182px;
+	margin-left: -171px;
+	margin-top: 55px;
+}
+.img {
+	width: 100px;
+	height: 100px;
+	margin-top: 800px;
+	margin-bottom: 333px;
+	margin-left: -387px;
+	margin-right: 239px;
+	padding-left: auto;
+	padding-right: auto;
+	padding-top: auto;
+	padding-bottom: auto;
+}
+
+
+
+
+
+}
